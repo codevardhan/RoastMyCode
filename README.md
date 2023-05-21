@@ -48,7 +48,7 @@ def get_data(url, lang, save_dir, dates):
 
 ### The Roast
 
-![Image of the website](demo.png)
+![demo](https://github.com/codevardhan/RoastMyCode/assets/52796014/8f84b624-38c1-42f1-a27e-c7df2d57c77d)
 
 ## Getting Started
 
@@ -59,6 +59,7 @@ To get started with RoastMyCode, follow these steps:
 ```bash
 git clone git@github.com:codevardhan/RoastMyCode.git
 ```
+
 
 2. Navigate to the project directory:
 
