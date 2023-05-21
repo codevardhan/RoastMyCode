@@ -48,7 +48,7 @@ def get_data(url, lang, save_dir, dates):
 
 ### The Roast
 
-![Image of the website](https://github.com/codevardhan/RoastMyCode/blob/9522c4a27d2c683a7ef8b4e9a3f24dfafeab932b/demo.png)
+![Image of the website](demo.png)
 
 ## Getting Started
 
