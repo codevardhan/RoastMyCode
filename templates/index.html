@@ -14,33 +14,28 @@
     <form action="{{ url_for('index') }}" method="POST">
       <div class="output">
         {% if output %}
-        <ul>
-          {% for out in output %}
-          {% if out != '' %}
-          <li>{{ out }}</li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-      
-
-      <!-- {{ output | safe}} -->
-
+          <ul>
+            {% for out in output %}
+              {% if out != '' %}
+                <li>{{ out }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
       {% else %}
-      <textarea name="text" placeholder="Paste your code here to get roasted :)"></textarea>
+        <textarea name="text" placeholder="Paste your code here to get roasted :)"></textarea>
       {% endif %}
 
       {% if output %}
-      <a href="{{ url_for('index') }}">
-        <button id="button">Go Back</button>
-      </a>
+        <a href="{{ url_for('index') }}">
+          <button id="button">Go Back</button>
+        </a>
       {% else %}
-      <button id="button" type="submit">Submit</button>
+        <button id="button" type="submit">Roast Me!</button>
       {% endif %}
 
     </form>
   </div>
 
 </body>
-
 </html>
