@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 import openai
 import dotenv
 import re
-import markdown
 
 config = dotenv.dotenv_values(".env")
 openai.api_key = config["OPENAI_API_KEY"]
@@ -33,4 +32,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5005)
+    app.run(port=5000)
