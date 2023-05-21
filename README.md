@@ -6,6 +6,7 @@ RoastMyCode is a fun Flask-based application that uses the GPT API to roast and 
 
 ### Input Code
 
+
 ```python
 def get_data(url, lang, save_dir, dates):
     header = {"User-Agent": "Mozilla/5.0"}
@@ -48,7 +49,7 @@ def get_data(url, lang, save_dir, dates):
 
 ### The Roast
 
-![demo](https://github.com/codevardhan/RoastMyCode/assets/52796014/8f84b624-38c1-42f1-a27e-c7df2d57c77d)
+![demo](https://github.com/codevardhan/RoastMyCode/assets/52796014/988af3de-1eea-4495-8cee-f1b985d77397)
 
 ## Getting Started
 
