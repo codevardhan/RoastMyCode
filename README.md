@@ -100,7 +100,7 @@ flask run
 
 1. Enter your code in the provided input field.
 2. Click the "Roast Me" button.
-3. GPT Code Roaster will generate a fun and comedic response, making fun of your code.
+3. RoastMyCode will generate a fun and comedic response, making fun of your code.
 4. Enjoy the roast and have a good laugh!
 
 ## Contributing
